@@ -4,12 +4,14 @@ import Home from "../views/Home.vue";
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "home",
     component: Home,
   },
 ];
 
-export default createRouter({
+const router = createRouter({
   history: createWebHistory(),
   routes,
 });
+
+export default router;

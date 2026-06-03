@@ -1,52 +1,97 @@
+<!-- Hero Section -->
 <template>
-    <section class="min-h-screen flex items-center justify-center bg-slate-950 text-white">
-        <div class="text-center">
+    <section class="hero">
 
-            <p class="text-cyan-400 uppercase tracking-widest">
-                Full Stack Software Engineer
-            </p>
+        <!-- Background Glow -->
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
 
-            <h1 class="text-6xl font-black mt-4">
-                Sakiru Akande
-            </h1>
+        <div class="container">
 
-            <h2 class="text-3xl mt-4 text-slate-300">
-                <span ref="typedElement"></span>
-            </h2>
+            <!-- Left Content -->
+            <div class="content" data-aos="fade-up">
 
-            <p class="max-w-2xl mt-8 mx-auto text-slate-400">
-                Building scalable ERP systems,
-                student information systems,
-                SaaS applications and enterprise software
-                using Laravel and Vue.js.
-            </p>
+                <!-- Availability Badge -->
+                <div class="badge">
+                    ● Available for Work
+                </div>
 
-            <div class="mt-8 flex justify-center gap-4">
-                <a href="#projects" class="px-8 py-4 bg-cyan-500 rounded-lg">
-                    View Projects
-                </a>
+                <!-- Name -->
+                <h1 class="title">
+                    Hi, I'm <span>Sakiru Akande</span>
+                </h1>
 
-                <a href="#contact" class="px-8 py-4 border rounded-lg">
-                    Hire Me
-                </a>
+                <!-- Role Animation -->
+                <h2 class="subtitle">
+                    <span ref="typedEl"></span>
+                </h2>
+
+                <!-- Description -->
+                <p class="desc">
+                    I build scalable <strong>ERP systems</strong>,
+                    <strong>SaaS platforms</strong>, and
+                    <strong>enterprise web applications</strong> using Laravel, Vue.js and modern web technologies.
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="actions">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Hire Me</a>
+                </div>
+
             </div>
+
+            <!-- Right Card -->
+            <div class="card" data-aos="zoom-in">
+
+                <div class="card-inner">
+
+                    <h3>Software Engineer</h3>
+
+                    <ul>
+                        <li>✔ Laravel Expert</li>
+                        <li>✔ Vue.js Developer</li>
+                        <li>✔ API Architect</li>
+                        <li>✔ EdTech Specialist</li>
+                    </ul>
+
+                    <div class="stats">
+                        <div>
+                            <h4>5+</h4>
+                            <p>Years</p>
+                        </div>
+                        <div>
+                            <h4>20+</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div>
+                            <h4>10+</h4>
+                            <p>Systems</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </section>
 </template>
 
 <script setup>
 import Typed from "typed.js";
-import { onMounted, ref } from "vue";
+import { ref, onMounted } from "vue";
 
-const typedElement = ref(null);
+const typedEl = ref(null);
 
 onMounted(() => {
-    new Typed(typedElement.value, {
+    new Typed(typedEl.value, {
         strings: [
             "Laravel Developer",
             "Vue.js Engineer",
             "API Architect",
-            "EdTech Solution Builder",
+            "SaaS Builder",
+            "EdTech System Developer"
         ],
         typeSpeed: 60,
         backSpeed: 40,
@@ -54,3 +99,158 @@ onMounted(() => {
     });
 });
 </script>
+
+<style scoped>
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #020617;
+    overflow: hidden;
+    color: white;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+/* Glow Effects */
+.glow {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    filter: blur(120px);
+    opacity: 0.4;
+}
+
+.glow-1 {
+    background: #06b6d4;
+    top: -100px;
+    left: -100px;
+}
+
+.glow-2 {
+    background: #2563eb;
+    bottom: -120px;
+    right: -120px;
+}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(6, 182, 212, 0.15);
+    color: #06b6d4;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* Title */
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title span {
+    color: #06b6d4;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #cbd5e1;
+    min-height: 40px;
+}
+
+/* Description */
+.desc {
+    margin-top: 20px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+/* Actions */
+.actions {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.primary {
+    background: #06b6d4;
+    color: white;
+}
+
+.secondary {
+    border: 1px solid #334155;
+    color: white;
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.card-inner h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card-inner ul {
+    list-style: none;
+    padding: 0;
+    color: #cbd5e1;
+}
+
+.card-inner li {
+    margin-bottom: 10px;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.stats h4 {
+    font-size: 20px;
+    color: #06b6d4;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .actions {
+        justify-content: center;
+    }
+}
+</style>

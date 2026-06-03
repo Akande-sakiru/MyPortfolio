@@ -1,23 +1,41 @@
 <template>
     <Navbar />
 
-    <HeroSection />
+    <section id="hero">
+        <HeroSection />
+    </section>
 
-    <AboutSection />
+    <section id="about">
+        <AboutSection />
+    </section>
 
-    <SkillsSection />
+    <section id="skills">
+        <SkillsSection />
+    </section>
 
-    <ExperienceSection />
+    <section id="experience">
+        <ExperienceSection />
+    </section>
 
-    <ProjectsSection />
+    <section id="projects">
+        <ProjectsSection />
+    </section>
 
-    <ServicesSection />
+    <section id="services">
+        <ServicesSection />
+    </section>
 
-    <StatsSection />
+    <section id="stats">
+        <StatsSection />
+    </section>
 
-    <TestimonialsSection />
+    <section id="testimonials">
+        <TestimonialsSection />
+    </section>
 
-    <ContactSection />
+    <section id="contact">
+        <ContactSection />
+    </section>
 
     <Footer />
 </template>
