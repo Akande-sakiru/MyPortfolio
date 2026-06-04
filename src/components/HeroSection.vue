@@ -29,7 +29,7 @@
                 <!-- Description -->
                 <p class="desc">
                     I build scalable <strong>ERP systems</strong>,
-                    <strong>SaaS platforms</strong>, and
+                    <strong>SaaS platforms</strong>, Payment Gateway Integration, Digital solutions and
                     <strong>enterprise web applications</strong> using Laravel, Vue.js and modern web technologies.
                 </p>
 
@@ -57,15 +57,15 @@
 
                     <div class="stats">
                         <div>
-                            <h4>5+</h4>
+                            <h4>3+</h4>
                             <p>Years</p>
                         </div>
                         <div>
-                            <h4>20+</h4>
+                            <h4>10+</h4>
                             <p>Projects</p>
                         </div>
                         <div>
-                            <h4>10+</h4>
+                            <h4>6+</h4>
                             <p>Systems</p>
                         </div>
                     </div>
@@ -87,14 +87,14 @@ const typedEl = ref(null);
 onMounted(() => {
     new Typed(typedEl.value, {
         strings: [
-            "Laravel Developer",
-            "Vue.js Engineer",
+            "Laravel Developer & Expert",
+            "Vue.js Engineer & Specialist",
             "API Architect",
-            "SaaS Builder",
-            "EdTech System Developer"
+            "SaaS Builder & Architect",
+            "EdTech System Developer",
         ],
-        typeSpeed: 60,
-        backSpeed: 40,
+        typeSpeed: 50,
+        backSpeed: 60,
         loop: true,
     });
 });

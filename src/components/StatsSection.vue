@@ -18,17 +18,17 @@
             <div class="grid">
 
                 <div class="card" data-aos="zoom-in">
-                    <h3>5+</h3>
+                    <h3>3+</h3>
                     <p>Years of Experience</p>
                 </div>
 
                 <div class="card" data-aos="zoom-in">
-                    <h3>20+</h3>
+                    <h3>10+</h3>
                     <p>Projects Completed</p>
                 </div>
 
                 <div class="card" data-aos="zoom-in">
-                    <h3>10+</h3>
+                    <h3>6+</h3>
                     <p>Systems Built</p>
                 </div>
 

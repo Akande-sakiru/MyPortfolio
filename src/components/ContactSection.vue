@@ -77,14 +77,14 @@ const success = ref(false);
 const sendEmail = async () => {
     try {
         await emailjs.send(
-            "SERVICE_ID",
-            "TEMPLATE_ID",
+            "service_7wr29sc",
+            "template_xfupbwa",
             {
                 name: name.value,
                 email: email.value,
                 message: message.value,
             },
-            "PUBLIC_KEY"
+            "kJqOY2L27V_q2gRRX"
         );
 
         success.value = true;

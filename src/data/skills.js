@@ -8,6 +8,10 @@ export default [
       "MySQL",
       "Authentication (Sanctum)",
       "System Architecture",
+      "Role-based Access Control",
+      "Workflow Automation",
+      "Database Optimization",
+      "Payment Integration",
     ],
   },
   {
@@ -19,6 +23,7 @@ export default [
       "CSS3",
       "TailwindCSS",
       "Inertia.js",
+      "Reactive UI Design",
     ],
   },
   {
@@ -41,6 +46,9 @@ export default [
       "E-Voting Systems",
       "Database Design",
       "Analytics Systems",
+      "API Development",
+      "Web Development",
+      "Payment Integration",
     ],
   },
 ];

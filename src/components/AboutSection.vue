@@ -64,17 +64,17 @@
 
                     <div class="experience">
                         <div>
-                            <h4>5+</h4>
+                            <h4>3+</h4>
                             <span>Years Experience</span>
                         </div>
 
                         <div>
-                            <h4>20+</h4>
+                            <h4>10+</h4>
                             <span>Projects</span>
                         </div>
 
                         <div>
-                            <h4>10+</h4>
+                            <h4>6+</h4>
                             <span>Systems Built</span>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
 
 .card-2 {
     bottom: 60px;
-    right: -30px;
+    right: -50px;
 }
 
 .card-3 {
