@@ -57,9 +57,9 @@
 
                     <div class="socials">
 
-                        <a href="#" target="_blank">GitHub</a>
-                        <a href="#" target="_blank">LinkedIn</a>
-                        <a href="#" target="_blank">WhatsApp</a>
+                        <a href="https://github.com/Akande-sakiru" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/Akande-sakiru" target="_blank">LinkedIn</a>
+                        <a href="https://wa.me/2348169453935" target="_blank">WhatsApp</a>
 
                     </div>
 
