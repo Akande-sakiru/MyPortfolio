@@ -37,6 +37,9 @@
                 <div class="actions">
                     <a href="#projects" class="btn primary">View Projects</a>
                     <a href="#contact" class="btn secondary">Hire Me</a>
+                    <a :href="cvFile" target="_blank" class="btn cv-btn">
+                        📄 View Resume
+                    </a>
                 </div>
 
             </div>
@@ -81,6 +84,8 @@
 <script setup>
 import Typed from "typed.js";
 import { ref, onMounted } from "vue";
+import cvFile from "../assets/files/AKANDE_SAKIRU_CV_LATEST.pdf";
+
 
 const typedEl = ref(null);
 
@@ -240,6 +245,16 @@ onMounted(() => {
 .stats h4 {
     font-size: 20px;
     color: #06b6d4;
+}
+
+.cv-btn {
+    background: transparent;
+    border: 1px solid rgba(6, 182, 212, 0.4);
+    color: #06b6d4;
+}
+
+.cv-btn:hover {
+    background: rgba(6, 182, 212, 0.1);
 }
 
 /* Responsive */

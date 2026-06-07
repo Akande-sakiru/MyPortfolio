@@ -51,7 +51,6 @@
                 <div class="contact" data-aos="fade-up">
 
                     <h3>Contact</h3>
-
                     <p>Email: oluwadamilareakande411@gmail.com</p>
                     <p>Lagos, Nigeria</p>
 
