@@ -84,7 +84,7 @@
 <script setup>
 import Typed from "typed.js";
 import { ref, onMounted } from "vue";
-import cvFile from "../assets/files/AKANDE_SAKIRU_CV_LATEST.pdf";
+import cvFile from "../assets/files/Akande_Sakiru_Damilar_CV.pdf";
 
 
 const typedEl = ref(null);
